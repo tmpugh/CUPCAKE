@@ -7,17 +7,12 @@
  */
 
 function redirect_user($page="loggedinAdmin.php") {
-//    $url='http://' . $_SERVER['HTTP_HOST']. dirname($_SERVER['PHP_SELF']);
-//    $url=rtrim($url,'/\\');
-//    $url.='/'. $page;
     $url=$page;
 
-    //Redirect the user and complete the function
     header("Location: $url");
 
-    //Quit the script
     exit();
-}  //End of function
+}
 
 function checkLogin($dbc, $login='', $pass='') {
     $errors=array();
@@ -33,7 +28,7 @@ function checkLogin($dbc, $login='', $pass='') {
         $errors[]="You forgot to enter your password.";
     }
 
-    //check the database
+
     if(empty($errors)) {
         $q="SELECT admin_id, firstName from admin WHERE admin_login='$al' && admin_pass='$ap'";
 
