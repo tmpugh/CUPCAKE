@@ -7,17 +7,10 @@
  */
 
 function redirect_user($page="passChanged.php") {
-//    $url='http://' . $_SERVER['HTTP_HOST']. dirname($_SERVER['PHP_SELF']);
-//    $url=rtrim($url,'/\\');
-//    $url.='/'. $page;
     $url=$page;
-
-    //Redirect the user and complete the function
     header("Location: $url");
-
-    //Quit the script
     exit();
-}  //End of function
+}
 
 function checkLogin($dbc, $login='', $pass='', $pass2='')
 {
@@ -44,7 +37,7 @@ function checkLogin($dbc, $login='', $pass='', $pass2='')
         $errors[] = "Your password must be no longer than 12 characters.";
     }
 
-    //check the database
+
     if (empty($errors)) {
         $q = "SELECT user_id FROM registration WHERE user_login='$ul'";
 
