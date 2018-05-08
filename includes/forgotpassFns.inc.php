@@ -7,17 +7,11 @@
  */
 
 function redirect_user($page="changePass.php") {
-//    $url='http://' . $_SERVER['HTTP_HOST']. dirname($_SERVER['PHP_SELF']);
-//    $url=rtrim($url,'/\\');
-//    $url.='/'. $page;
     $url=$page;
-
-    //Redirect the user and complete the function
     header("Location: $url");
 
-    //Quit the script
     exit();
-}  //End of function
+}
 
 function checkLogin($dbc, $fName='', $lName='', $email='') {
     $errors=array();
@@ -48,8 +42,6 @@ function checkLogin($dbc, $fName='', $lName='', $email='') {
 
 
 
-
-    //check the database
     if(empty($errors)) {
         $q="SELECT user_id FROM registration WHERE first_name='$fn' && last_name='$ln' && email='$em'";
 
