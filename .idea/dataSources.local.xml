@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="cupcakes@localhost" uuid="caa07ac3-9d93-4cd1-abb9-6010cb3f3b70">
+      <database-info product="MySQL" version="5.6.38" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.45 ( Revision: 9131eefa398531c7dc98776e8a3fe839e544c5b2 )">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="upper" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <introspection-schemas>*:cupcakes</introspection-schemas>
+    </data-source>
+    <data-source name="tmpugh@trevor.butler.edu" uuid="801a66d9-5fa0-46e1-9218-3105604c1a10">
+      <database-info product="MySQL" version="5.5.59-MariaDB" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.45 ( Revision: 9131eefa398531c7dc98776e8a3fe839e544c5b2 )">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>tmpugh</user-name>
+      <introspection-schemas>*:tmpugh</introspection-schemas>
+    </data-source>
+    <data-source name="@localhost" uuid="f68dc0de-3854-4f8b-8e4a-9a3352417ab2">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <secret-storage>master_key</secret-storage>
+      <first-sync>true</first-sync>
+    </data-source>
+    <data-source name="tpugh@trevor.butler.edu" uuid="eabc7901-0931-4e2e-ae51-252866ff892a">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <secret-storage>master_key</secret-storage>
+      <first-sync>true</first-sync>
+      <user-name>tpugh</user-name>
+    </data-source>
+  </component>
+</project>

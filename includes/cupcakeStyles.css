@@ -1,0 +1,382 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    background-color:seashell;
+}
+
+/* -- Header & Footer Settings -- */
+header, footer {
+    background-color: rgb(253, 220, 226);
+    width:100%;
+}
+
+header {
+    border-bottom:5px solid rgb(82, 81, 81);
+    height:142px;
+    min-width:500px;
+}
+
+#logo {
+    margin:20px 25px 20px 40px;
+}
+
+nav {
+    float:right;
+    margin-top:43px;
+    margin-right:150px;
+}
+
+nav li, footer li {
+    display:inline-block;
+    margin:20px;
+}
+
+nav a, footer a {
+    text-decoration:none;
+    text-transform:uppercase;
+}
+
+nav a:hover, footer a:hover {
+    color: rgb(82, 81, 81);
+    font-weight: bold;
+}
+
+#pictureBox {
+    background-image:url('../images/Celebrations.jpg');
+    height:500px;
+    background-size:cover;
+}
+
+footer {
+    padding:25px;
+    padding:25px;
+    border-top:5px solid rgb(82, 81, 81);
+    margin-top:50px;
+    text-align:center;
+}
+
+/* -- End of Header & Footer Settings -- */
+
+
+
+/* -- Contact Settings -- */
+.contactBox {
+    margin:20px;
+}
+
+.contactBox h2 {
+    margin:10px 0;
+}
+
+.contactBox label {
+    vertical-align:top;
+    text-align:right;
+    display:inline-block;
+    width:120px;
+}
+
+.contactBox input {
+    margin:5px;
+}
+
+.contactBox textarea {
+    margin-top:5px;
+    width:127px;
+    margin-left:5px;
+}
+
+.contactBox #submit {
+    margin-left:175px;
+}
+
+#contact p {
+    margin:20px 20px 20px 70px;
+}
+
+/* -- End of Contact Settings -- */
+
+
+/* -- User Login Settings -- */
+#userLogin h2 {
+    margin:20px;
+}
+
+#userLogin form {
+    margin:20px;
+}
+
+#userLogin label {
+    text-align:right;
+    display:inline-block;
+    width:80px;
+}
+
+#userLogin input {
+    margin:5px;
+}
+
+#userLogin #login {
+    margin-left:170px;
+}
+
+#userLogin a {
+    text-decoration:none;
+    color:black;
+    margin-left:60px;
+    margin-top:4px;
+}
+
+/* -- End of User Login Settings -- */
+
+
+/* -- Admin Login Settings -- */
+#adminLogin h2 {
+    margin:20px;
+}
+
+#adminLogin form {
+    margin:20px;
+}
+
+#adminLogin label {
+    display:inline-block;
+    text-align:right;
+    width:80px;
+}
+
+#adminLogin input {
+    margin:5px;
+}
+
+#adminLogin #aLogin {
+    margin-left:172px;
+}
+
+/* -- End of Admin Login Settings -- */
+
+/* -- Add Cupcake Settings -- */
+.addCupcake h2 {
+    margin:20px;
+}
+
+.addCupcake a {
+    margin:20px;
+    margin-left:30px;
+}
+
+#addCupcake h2 {
+    margin:20px;
+}
+
+#addCupcake form {
+    margin:20px;
+}
+
+#addCupcake label {
+    text-align:right;
+    display:inline-block;
+    width:190px;
+    vertical-align:top;
+}
+
+#addCupcake .radio {
+    width:25px;
+}
+
+#addCupcake input  {
+    margin:5px;
+}
+
+#addCupcake textarea {
+    margin:5px;
+    width:126px;
+}
+
+#addCupcake #add {
+    margin-left:245px;
+    margin-top:20px;
+}
+
+/* -- End of Add Cupcake Settings -- */
+
+article {
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-gap:1rem;
+}
+
+
+/* -- Cupcake List Settings -- */
+.cBox {
+    background-color:white;
+    border:1px solid gray;
+    box-shadow:1px 1px 4px rgb(175,175,175);
+    padding:1.2rem;
+    text-align:center;
+    font-size:0.8rem;
+    margin:20px 20px;
+}
+
+.cBox img {
+    width:120px;
+    height:auto;
+    display:block;
+    margin:0px auto;
+}
+
+/* -- End of Cupcake List Settings -- */
+
+/* -- Cupcake Settings -- */
+.iCupcake {
+    margin:30px;
+}
+
+.iCupcake h1 {
+    padding:10px 0px;
+}
+
+.cDesc {
+    position:absolute;
+    right:450px;
+    bottom:170px;
+}
+
+.cDesc p {
+    width:300px;
+    margin:10px 0;
+}
+
+.cDesc label, .cDesc input {
+    margin:5px 0;
+}
+
+/* -- End of Cupcake Settings -- */
+
+/* -- Cart Settings -- */
+#update {
+    margin-left:397px;
+    margin-bottom:5px;
+}
+
+#checkout {
+    margin-left:411px;
+}
+
+.addtocart p {
+    margin:20px;
+}
+/* -- End of Cart Settings -- */
+
+
+/* -- New Account Settings -- */
+#newAccount h2 {
+    margin:20px;
+}
+
+#newAccount form {
+    margin:20px;
+}
+
+#newAccount label {
+    display:inline-block;
+    text-align:right;
+    width:150px;
+}
+
+#newAccount input {
+    margin:5px;
+}
+
+#newAccount #register {
+    margin-left:190px;
+}
+
+/* -- End of New Account Settings -- */
+
+
+/* -- Forgot Password -- */
+#forgotPass h2 {
+    margin:20px;
+}
+
+#forgotPass form {
+    margin:20px;
+}
+
+#forgotPass label {
+    display:inline-block;
+    text-align:right;
+    width:100px;
+}
+
+#forgotPass input {
+    margin:5px;
+}
+
+#forgotPass #forgot {
+    margin-left:128px;
+}
+
+#changePass h2 {
+    margin:20px;
+}
+
+#changePass form {
+    margin:20px;
+}
+
+#changePass label {
+    display:inline-block;
+    text-align:right;
+    width:140px;
+}
+
+#changePass input {
+    margin:5px;
+}
+
+#changePass #change {
+    margin-left:168px;
+}
+
+/* -- End of Forgot Password -- */
+
+/* -- Past Order Settings -- */
+#pastOrders h2 {
+    margin:20px;
+}
+
+#pastOrders table {
+    margin:20px;
+}
+
+/* -- End of Past Order Settings -- */
+
+a {
+    color:black;
+    text-decoration:none;
+}
+
+
+table {
+    border:1px solid black;
+    margin:20px;
+    border-collapse:collapse;
+}
+
+th, td {
+    border:1px solid black;
+    padding:5px;
+    /*background-color:white;*/
+}
+
+.allGood {
+    margin:20px;
+}
+
+.allGood h2 {
+    margin-bottom:10px;
+}
